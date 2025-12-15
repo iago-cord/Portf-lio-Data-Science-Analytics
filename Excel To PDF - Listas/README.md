@@ -78,6 +78,5 @@ Eder Iago Cordeiro de Amorim
 LinkedIn - 
 ---
 
-👉 Esse README já está pronto para subir junto com seu código. Ele mostra claramente o **propósito**, **funcionalidades**, **instalação** e **uso**.  
 
 

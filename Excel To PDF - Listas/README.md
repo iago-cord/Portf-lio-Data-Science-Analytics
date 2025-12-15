@@ -42,15 +42,6 @@ Com este projeto em **Python + Streamlit**, o tempo caiu para **2 minutos**, gra
 
 ---
 
-## 📂 Estrutura do projeto
-├── data/ # Planilhas de entrada (exemplo fictício) │ 
-└── data - guias ficticios.xlsx 
-├── PDFs_por_proprietario/ # Saída dos relatórios gerados 
-├── app.py # Código principal da aplicação 
-├── requirements.txt # Dependências do projeto 
-└── README.md # Documentação
----
-
 ## ⚙️ Instalação
 
 Clone o repositório e instale as dependências:

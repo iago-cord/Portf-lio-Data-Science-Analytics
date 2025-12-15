@@ -3,6 +3,16 @@
 Este projeto é uma aplicação em **Python + Streamlit** que permite filtrar clientes por **Guias** e gerar relatórios em **PDF** organizados por **Proprietário**.  
 O objetivo é automatizar tarefas repetitivas de análise e exportação de dados, garantindo eficiência e padronização dos relatórios.
 
+
+## 🎯 Contexto e Motivação
+
+Toda semana um grupo de guias comparecia à empresa com clientes antigos e novos. Como os guias mudavam semanalmente, era necessário gerar listas personalizadas para cada consultora, contendo os clientes vinculados aos guias confirmados naquela semana. Essas listas eram usadas para que as consultoras entrassem em contato com os clientes, oferecendo produtos e informando que o guia estava presente e poderia levar a mercadoria.
+
+O processo manual levava cerca de **2 horas** para ser concluído.  
+Com este projeto em **Python + Streamlit**, o tempo caiu para **2 minutos**, graças à automação que:
+- Permite selecionar os guias confirmados via interface.  
+- Gera automaticamente arquivos **PDF** com os clientes de cada consultora.  
+- Padroniza e organiza as informações de forma prática e acessível.
 ---
 
 ## 🚀 Funcionalidades
@@ -11,7 +21,7 @@ O objetivo é automatizar tarefas repetitivas de análise e exportação de dado
 - Seleção interativa dos **Guias da Semana** via interface Streamlit.  
 - Visualização dos clientes vinculados aos guias selecionados em tabela dinâmica.  
 - Geração automática de **PDFs individuais por Proprietário**, contendo:  
-  - Coligador  
+  - Código  
   - Nome  
   - Proprietário  
   - Guia  

@@ -64,3 +64,19 @@ Visualize os clientes filtrados.
 Clique em Gerar PDFs por Proprietário.
 
 Os relatórios serão salvos automaticamente na pasta PDFs_por_proprietario/
+
+📌 Exemplo de saída
+Cada PDF contém uma tabela formatada com os dados do respectivo proprietário, em modo paisagem, com colunas ajustadas proporcionalmente.
+
+📜 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e compartilhar.
+
+✨ Autor
+Eder Iago Cordeiro de Amorim
+
+LinkedIn - 
+---
+
+👉 Esse README já está pronto para subir junto com seu código. Ele mostra claramente o **propósito**, **funcionalidades**, **instalação** e **uso**.  
+
+

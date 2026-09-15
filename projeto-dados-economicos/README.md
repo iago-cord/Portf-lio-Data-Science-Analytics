@@ -43,14 +43,14 @@ Os dados utilizados inicialmente são provenientes do Sistema Gerenciador de Sé
 ## Estrutura do Projeto
 
 projeto-dados-economicos/
-├── data/
-├── logs/
-├── src/
-│   ├── functions.py
-│   └── request_bcb.py
-├── .gitignore
-├── README.md
-└── requirements.txt
+- ├── data/
+- ├── logs/
+- ├── src/
+- │   ├── functions.py
+- │   └── request_bcb.py
+- ├── .gitignore
+- ├── README.md
+- └── requirements.txt
 
 ## Coleta
 

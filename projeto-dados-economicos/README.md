@@ -34,23 +34,23 @@ Os dados utilizados inicialmente são provenientes do Sistema Gerenciador de Sé
 
 ### Séries utilizadas
 
-Série 11 - Selic efetiva diária
-Série 1178 - Selic efetiva diária Anualizada / Base 252
-Série 4189 - Selic acumulada mês Anualizada / Base 252
-Série 432 - Meta Selic
-Série 4390 - Selic acumulada mês
+- Série 11 - Selic efetiva diária
+- Série 1178 - Selic efetiva diária Anualizada / Base 252
+- Série 4189 - Selic acumulada mês Anualizada / Base 252
+- Série 432 - Meta Selic
+- Série 4390 - Selic acumulada mês
 
 ## Estrutura do Projeto
 
 projeto-dados-economicos/
-data/
-logs/
-src/
-    functions.py
-    request_bcb.py
-.gitignore
-README.me
-requirements.txt
+├── data/
+├── logs/
+├── src/
+│   ├── functions.py
+│   └── request_bcb.py
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 ## Coleta
 
@@ -68,21 +68,21 @@ O pipeline possui:
 
 ### Concluido
 
-[x] Coleta de dados através da API do BCB;
-[x] Coleta Histórica;
-[x] Divisão das requisições em períodos;
-[x] Retry de requisições;
-[x] Exponential backoff;
-[x] Logging;
-[x] Armazenamento dos dados em JSON;
+- [x] Coleta de dados através da API do BCB;
+- [x] Coleta Histórica;
+- [x] Divisão das requisições em períodos;
+- [x] Retry de requisições;
+- [x] Exponential backoff;
+- [x] Logging;
+- [x] Armazenamento dos dados em JSON;
 
 ### Proximas etapas
 
-[ ] PostgreSQL;
-[ ] SQLAlchemy;
-[ ] Carga incremental;
-[ ] Upsert dos dados;
-[ ] Airflow;
-[ ] Transformações dos dados;
-[ ] Analises estatísticas e econométricas;
-[ ] Dashboard no Power BI;
+- [ ] PostgreSQL;
+- [ ] SQLAlchemy;
+- [ ] Carga incremental;
+- [ ] Upsert dos dados;
+- [ ] Airflow;
+- [ ] Transformações dos dados;
+- [ ] Analises estatísticas e econométricas;
+- [ ] Dashboard no Power BI;
